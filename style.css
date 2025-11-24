@@ -1,1 +1,17 @@
+img{
+    width: 100px;
+}
 
+/* ABSOLUTE postioning is like setting coordinates and it takes the element out of the "normal flow". Then you set distance from sides of the page either top left or bottom right*/
+
+#absolute{
+    position:absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
