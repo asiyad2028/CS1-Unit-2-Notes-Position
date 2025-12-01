@@ -7,11 +7,40 @@ img{
 #absolute{
     position:absolute;
     top: 200px;
-    left: 200px;
+    left: 150px;
+    z-index: 10px;
 }
+
+/* FIXED positioning keeps the element in the same place while scrolling */
 
 #fixed{
     position: fixed;
     bottom: 0px;
     right: 0px;
+}
+
+/*STICKY positioning is like fixed, but only "sticks" there when you scroll to it */
+
+#sticky{ 
+    position:sticky;
+    left: 0px;
+    top: 10px;
+}
+
+body{
+    height: 1000px;
+}
+
+/*RELATIVE positioning lets you "nudge" an element from its normal position on the page (moves it relative to the static spot) */
+
+#relative{
+    position: relative;
+    left: 15px; 
+    top: -15px;
+}
+/* setting display to "inline-block" makes the div fit perfectly aroung your img*/
+#container{
+    background: plum;
+    display:inline-block;
+
 }
